@@ -1,0 +1,16 @@
+name: first Workflow
+
+on: push
+
+jobs:
+    first_job:
+        runs-on: ubuntu-latest
+        steps:
+        - name: checkout Repo
+          uses: actions/checkout@v4
+        - name: Welcome message
+          run: echo "Hello Guys, I am at Google Now"
+        - name: listing file in repo
+          run: ls -lrth
+        - name: reading file
+          run: cat README.md
