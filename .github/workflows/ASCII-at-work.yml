@@ -13,7 +13,7 @@ jobs:
           run: sudo apt-get install cowsay -y
         - name: Multiline command
           run: |
-             cowsay -f daragon "Run for Cover, I am DRAGON....ROAR">> dragon.txt
+             cowsay -f dragon "Run for Cover, I am DRAGON....ROAR">> dragon.txt
              grep -i "dragon" dragon.txt
              echo "Hello Guys, I am at Google Now"
              ls -lrth
