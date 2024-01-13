@@ -1,4 +1,4 @@
-name: Second Workflow
+name: shell script Workflow
 
 on: push
 
@@ -11,6 +11,6 @@ jobs:
 
         - name: permission
           run: chmod +x ascii.sh
-            
-        - name: Install ASCII program
+
+        - name: execution of ascii
           run: ./ascii.sh
