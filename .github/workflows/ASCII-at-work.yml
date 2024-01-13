@@ -8,9 +8,10 @@ jobs:
         steps:
         - name: checkout Repo
           uses: actions/checkout@v4
-
+        - name: listing
+          run: ls -l
         - name: permission
-          run: chmod +x ./ascii.sh
+          run: chmod +x a.sh
 
         - name: execution of ascii
-          run: ./ascii.sh
+          run: ./a.sh
