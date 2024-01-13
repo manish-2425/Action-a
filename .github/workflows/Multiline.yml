@@ -1,4 +1,4 @@
-name: first Workflow
+name: multiline Workflow
 
 on: push
 
